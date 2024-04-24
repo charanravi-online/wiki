@@ -7,7 +7,7 @@
 
 
 
-refer this snapcraft page for more information: https://snapcraft.io/wiki
+
 
 
 ## How to use?
