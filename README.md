@@ -1,13 +1,15 @@
 [![wiki](https://snapcraft.io/wiki/badge.svg)](https://snapcraft.io/wiki)
 [![wiki](https://snapcraft.io/wiki/trending.svg?name=0)](https://snapcraft.io/wiki)
 
+# wiki, a command-line tool to get Wikipedia summaries in your terminal
+
+## About this repo
+1. The main python application that contains the logic is in the repo - https://github.com/charanravi-online/terminal-wiki
+2. This repository utilises this application and adds configuration that packages the python app into a snap application using snapcraft.yaml file. 
+
 ## How to install?
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/wiki)
-
-
-
-
 
 
 ## How to use?
