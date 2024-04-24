@@ -3,8 +3,8 @@
 
 ## How to install?
 
-Install via snap package manager.\
-```sudo snap install wiki```
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/wiki)
+
 
 
 refer this snapcraft page for more information: https://snapcraft.io/wiki
