@@ -8,8 +8,7 @@
 # wiki, a command-line tool to get Wikipedia summaries in your terminal
 
 ## About this repo
-1. The main python application that contains the logic is in the repo - https://github.com/charanravi-online/terminal-wiki
-2. This repository utilises this application and adds configuration that packages the python app into a snap application using snapcraft.yaml file. 
+1. This repository utilises the python application from the https://github.com/charanravi-online/terminal-wiki and adds configuration that packages the python app into a snap application using snapcraft.yaml file. 
 
 ## How to install?
 
