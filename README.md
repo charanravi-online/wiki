@@ -1,3 +1,7 @@
+![wiki](https://github.com/charanravi-online/wiki/blob/main/snap_icon/wiki.png)
+
+
+
 [![wiki](https://snapcraft.io/wiki/badge.svg)](https://snapcraft.io/wiki)
 [![wiki](https://snapcraft.io/wiki/trending.svg?name=0)](https://snapcraft.io/wiki)
 
