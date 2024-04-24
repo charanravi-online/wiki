@@ -1,4 +1,5 @@
-
+[![wiki](https://snapcraft.io/wiki/badge.svg)](https://snapcraft.io/wiki)
+[![wiki](https://snapcraft.io/wiki/trending.svg?name=0)](https://snapcraft.io/wiki)
 
 ## How to install?
 
