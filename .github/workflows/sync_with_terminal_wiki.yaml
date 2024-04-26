@@ -17,7 +17,7 @@ jobs:
 
       - name: Configure user info
         run: |
-          git config user.email "charanravi.online@gmail.com"
+          git config user.email "charanravi-online@gmail.com"
           git config user.name "R Charan"
 
       - name: Fetch changes from terminal-wiki
@@ -25,11 +25,11 @@ jobs:
           git remote add upstream https://github.com/charanravi-online/terminal-wiki.git || true
           git fetch upstream
 
-      - name: Merge changes excluding README and LICENSE
+      - name: Merge changes allowing unrelated histories and excluding README and LICENSE
         run: |
-          git merge upstream/main --no-commit --no-ff
-          git checkout --ours README.md LICENSE
-          git commit -m "Merge changes from terminal-wiki excluding README and LICENSE"
+          git merge upstream/main --allow-unrelated-histories --no-commit --no-ff
+          git checkout --ours README.md LICENSE  # Keep local versions of these files
+          git commit -m "Merge changes from terminal-wiki, excluding README and LICENSE"
 
       - name: Push changes
         run: |
