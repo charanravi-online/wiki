@@ -13,7 +13,7 @@ jobs:
       - name: Checkout wiki repository
         uses: actions/checkout@v2
         with:
-          repository: yourusername/wiki
+          repository: charanravi-online/wiki
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Fetch changes from terminal-wiki
