@@ -2,8 +2,8 @@ name: Sync with terminal-wiki
 
 on:
   schedule:
-    # This schedule runs the workflow every hour. Adjust as needed.
-    - cron:  '0 * * * *'
+    # Runs the workflow every hour, you can adjust the cron value as needed
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -13,13 +13,12 @@ jobs:
       - name: Checkout wiki repository
         uses: actions/checkout@v2
         with:
-          repository: charanravi-online/wiki
+          repository: yourusername/wiki
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Fetch changes from terminal-wiki
         run: |
-          git remote add upstream https://github.com/charanravi-online/terminal-wiki.git
+          git remote add upstream https://github.com/charanravi-online/terminal-wiki.git || true  # Ignore errors if the remote already exists
           git fetch upstream
-          git merge upstream/main --no-edit
+          git merge upstream/main --allow-unrelated-histories -m "Merging changes from terminal-wiki" 
           git push origin main
-
