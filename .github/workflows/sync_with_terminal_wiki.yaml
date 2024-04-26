@@ -1,4 +1,4 @@
-name: Sync with terminal-wiki
+name: Sync specific folders from terminal-wiki
 
 on:
   schedule:
@@ -25,12 +25,13 @@ jobs:
           git remote add upstream https://github.com/charanravi-online/terminal-wiki.git || true
           git fetch upstream
 
-      - name: Merge changes allowing unrelated histories and excluding README and LICENSE
+      - name: Checkout specific folders
         run: |
-          git merge upstream/main --allow-unrelated-histories --no-commit --no-ff
-          git checkout --ours README.md LICENSE  # Keep local versions of these files
-          git commit -m "Merge changes from terminal-wiki, excluding README and LICENSE"
+          git checkout upstream/main -- src/ requirements.txt setup.py
+          # Use the above line to specify the paths of the folders you want to sync
 
-      - name: Push changes
+      - name: Commit changes
         run: |
+          git add .
+          git commit -m "Sync specific folders from terminal-wiki"
           git push origin main
