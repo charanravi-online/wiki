@@ -1,4 +1,4 @@
-![wiki](https://github.com/charanravi-online/wiki/blob/main/snap_icon/wiki.png)
+![wiki](https://github.com/charanravi-online/wiki/blob/main/snap_icon/wiki_banner.png)
 
 
 
