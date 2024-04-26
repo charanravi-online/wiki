@@ -1,8 +1,8 @@
-name: Sync specific folders from terminal-wiki
+name: sync source code from terminal-wiki
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 * * 1'  # At 00:00 on Monday
   workflow_dispatch:
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
       - name: Checkout specific folders
         run: |
           git checkout upstream/main -- src/ requirements.txt setup.py
-          # Use the above line to specify the paths of the folders you want to sync
+          # only the above mentioned files and folder are synced
 
       - name: Commit changes
         run: |
