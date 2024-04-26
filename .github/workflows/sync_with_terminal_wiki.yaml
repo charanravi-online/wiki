@@ -2,8 +2,7 @@ name: Sync with terminal-wiki
 
 on:
   schedule:
-    # Runs the workflow every hour, you can adjust the cron value as needed
-    - cron: '0 * * * *'
+    - cron:  '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,9 +15,14 @@ jobs:
           repository: charanravi-online/wiki
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
+      - name: Configure user info
+        run: |
+          git config user.email "charanravi.online@gmail.com"
+          git config user.name "R Charan"
+
       - name: Fetch changes from terminal-wiki
         run: |
-          git remote add upstream https://github.com/charanravi-online/terminal-wiki.git || true  # Ignore errors if the remote already exists
+          git remote add upstream https://github.com/charanravi-online/terminal-wiki.git || true
           git fetch upstream
           git merge upstream/main --allow-unrelated-histories -m "Merging changes from terminal-wiki" 
           git push origin main
