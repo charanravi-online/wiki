@@ -5,17 +5,17 @@
 [![wiki](https://snapcraft.io/wiki/badge.svg)](https://snapcraft.io/wiki)
 [![wiki](https://snapcraft.io/wiki/trending.svg?name=0)](https://snapcraft.io/wiki)
 
-# wiki, a command-line tool to get Wikipedia summaries in your terminal
 
-## About this repo
+
+# About this repo
 1. This repository utilises the python application from the https://github.com/charanravi-online/terminal-wiki and adds configuration that packages the python app into a snap application using snapcraft.yaml file. 
 
-## How to install?
+# How to install?
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/wiki)
 
 
-## How to use?
+# How to use?
 
 ```wiki <enter your search query here>```
 
@@ -25,7 +25,7 @@ Then summary related to the page you select will be displayed.
 
 
 
-## Example
+# Example
 
 Here's an example of how to use the script:
 
