@@ -17,7 +17,7 @@
 
 # How to use?
 
-```wiki <enter your search query here>```
+```wiki "<enter your search query here>"```
 
 
 You will be presented with a list of items your search query matches with. Pick one of them and a short summary will be displayed.\
