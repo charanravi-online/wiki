@@ -30,187 +30,58 @@ Then summary related to the page you select will be displayed.
 Here's an example of how to use the script:
 
 ```
-charan@charan ~> wiki albert
-Here are the results for: "albert"
-1. Albert - Look up Albert or Altti in Wiktionary, the free dictionary. Albert may refer to: Albert Computers, Inc., a computer manufacturer in the 1980s Albert Czech...
+charan@charan ~> wiki "the conjuring"
+Here are the results for: "the conjuring"
+1. The Conjuring - The Conjuring is a 2013 American supernatural horror film directed by James Wan and written by Chad Hayes and Carey W. Hayes. It is the inaugural film...
 
-2. Albert Einstein - Albert Einstein (/ˈaɪnstaɪn/ EYEN-styne; German: [ˈalbɛɐt ˈʔaɪnʃtaɪn] ; 14 March 1879 – 18 April 1955) was a German-born theoretical physicist who is widely...
+2. The Conjuring Universe - The Conjuring Universe is an American horror franchise and shared universe centered on a series of supernatural horror films. The franchise is produced...
 
-3. Prince Albert of Saxe-Coburg and Gotha - Prince Albert of Saxe-Coburg and Gotha (Franz August Karl Albert Emanuel; 26 August 1819 – 14 December 1861) was the husband and consort of the British...
+3. The Conjuring 2 - The Conjuring 2 (known in the United Kingdom as The Conjuring 2: The Enfield Case) is a 2016 American supernatural horror film, directed by James Wan....
 
-4. Albert Camus - Albert Camus (/kæmˈuː/ kam-OO; French: [albɛʁ kamy] ; 7 November 1913 – 4 January 1960) was a French philosopher, author, dramatist, journalist, world...
+4. The Conjuring: The Devil Made Me Do It - James Wan. The film serves as a sequel to The Conjuring (2013) and The Conjuring 2 (2016), and as the seventh installment in The Conjuring Universe. Patrick...
 
-5. George VI - George VI (Albert Frederick Arthur George; 14 December 1895 – 6 February 1952) was King of the United Kingdom and the Dominions of the British Commonwealth...
+5. Conjuration - Look up conjuration or conjuring in Wiktionary, the free dictionary. Conjuration or Conjuring may refer to: Conjuration (summoning), the evocation of spirits...
 
-6. Albert II, Prince of Monaco - Albert II (Albert Alexandre Louis Pierre Grimaldi; born 14 March 1958) is Prince of Monaco, reigning since 2005. Born at the Prince's Palace of Monaco...
+6. Conjuring Kannappan - Conjuring Kannappan (also marketed as Conjuring Kannappan: Dreams Come True) is a 2023 Indian Tamil-language comedy horror film written and directed by...
 
-7. Einstein family - The Einstein family is the family of physicist Albert Einstein (1879–1955). Einstein's great-great-great-great-grandfather, Jakob Weil, was his oldest...
+7. Ed and Lorraine Warren - This story serves as the inspiration for The Conjuring: The Devil Made Me Do It (2021). The case was described in the 1983 book The Devil in Connecticut...
 
-8. The Albert - The Albert is a Grade II listed pub located at 52 Victoria Street in Victoria, London, about 0.4 miles (0.64 km) southwest of Westminster Abbey. Built...
+8. The Conjuring (soundtrack) - The Conjuring (Original Motion Picture Soundtrack) is the score album to the 2013 film The Conjuring directed by James Wan. The film score is composed...
 
-9. Victoria and Albert Museum - The Victoria and Albert Museum (abbreviated V&A) in London is the world's largest museum of applied arts, decorative arts and design, housing a permanent...
+9. The Nun (2018 film) - serves as a spiritual spin-off to The Conjuring 2 and is the fifth installment in The Conjuring shared universe. The film stars Taissa Farmiga, Demián...
 
-10. List of Fat Albert and the Cosby Kids episodes - Fat Albert and the Cosby Kids aired 110 episodes during its run on CBS from September 9, 1972 to October 24, 1981 and later in syndication from September...
+10. The Conjuring (song) - "The Conjuring" is a song by the thrash metal band Megadeth from their 1986 album Peace Sells... but Who's Buying?. Written by Dave Mustaine during a...
 
-Pick a page: 2
-Albert Einstein
-Einstein in 1921
-Born
-(
-1879-03-14
-)
-14 March 1879
-Ulm
-, Kingdom of Württemberg, German Empire
-Died
-18 April 1955
-(1955-04-18)
-(aged 76)
-Princeton, New Jersey
-, U.S.
-Citizenship
-Kingdom of Württemberg
-, part of the German Empire (until 1896)
-[note 1]
-Stateless
-(1896–1901)
-Switzerland
-(1901–1955)
-Austria
-, part of the
-Austro-Hungarian Empire
-(1911–1912)
-Kingdom of Prussia
-, part of the German Empire (1914–1918)
-[note 1]
-Free State of Prussia
-(
-Weimar Republic
-, 1918–1933)
-[note 1]
-United States (1940–1955)
-Education
-ETH Zurich
-(Dipl., 1900)
-University of Zurich
-(
-PhD
-, 1905)
-Known for
-General relativity
-Special relativity
-Photoelectric effect
-E
-=
-mc
-2
-(mass–energy equivalence)
-E
-=
-hf
-(Planck–Einstein relation)
-Theory of
-Brownian motion
-Einstein field equations
-Bose–Einstein statistics
-Bose–Einstein condensate
-Gravitational wave
-Cosmological constant
-Unified field theory
-EPR paradox
-Ensemble interpretation
-List of other concepts
-Spouses
-Mileva Marić
-
-
-(
-m.
-1903;
-div.
-1919)
-
-Elsa Löwenthal
-
-
-(
-m.
-1919; died 1936)
-
-Children
-Lieserl
-Hans Albert
-Eduard "Tete"
-Awards
-Barnard Medal
-(1920)
-Nobel Prize in Physics
-(1921)
-Matteucci Medal
-(1921)
-ForMemRS
-(1921)
-
-Copley Medal
-(1925)
-
-Gold Medal of the Royal Astronomical Society
-(1926)
-
-Max Planck Medal
-(1929)
-Member of the National Academy of Sciences
-(1942)
-
-Time
-Person of the Century
-(1999)
-Scientific career
-Fields
-Physics
-Institutions
-University of Bern
-(1908–1909)
-University of Zurich
-(1909–1911)
-Charles University in Prague
-(1911–1912)
-ETH Zurich
-(1912–1914)
-Prussian Academy of Sciences
-(1914–1933)
-Humboldt University of Berlin
-(1914–1933)
-Kaiser Wilhelm Institute
-(director, 1917–1933)
-German Physical Society
-(president, 1916–1918)
-Leiden University
-(visits, 1920)
-Institute for Advanced Study
-(1933–1955)
-California Institute of Technology
-(visits, 1931–1933)
-University of Oxford
-(visits, 1931–1933)
-Brandeis University
-(director, 1946–1947)
-Thesis
-Eine neue Bestimmung der Moleküldimensionen
-(A New Determination of Molecular Dimensions)
-(1905)
-Doctoral advisor
-Alfred Kleiner
-Other academic advisors
-Heinrich Friedrich Weber
-Albert Einstein's voice
-Opening of Einstein's speech (11 April 1943) for the United Jewish Appeal (recording by Radio Universidad Nacional de La Plata, Argentina
-Signature
-
+Pick a page: 1
+Directed by: James Wan
+Written by: Chad Hayes
+Carey W. Hayes
+Produced by: Tony DeRosa-Grund
+Peter Safran
+Rob Cowan
+Starring: Vera Farmiga
+Patrick Wilson
+Ron Livingston
+Lili Taylor
+Cinematography: John R. Leonetti
+Edited by: Kirk Morri
+Music by: Joseph Bishara
+Productioncompanies: New Line Cinema
+The Safran Company
+Evergreen Media Group
+Distributed by: Warner Bros. Pictures
+Release dates: July 15, 2013 (2013-07-15) (Cinerama Dome)
+July 19, 2013 (2013-07-19) (United States)
+Running time: 112 minutes
+Country: United States
+Language: English
+Budget: $20 million
+Box office: $319.5 million
 Summary:
-Albert Einstein (/ˈaɪnstaɪn/ EYEN-styne; German: [ˈalbɛɐt ˈʔaɪnʃtaɪn] ⓘ; 14 March 1879 – 18 April 1955) was a German-born theoretical physicist who is widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, Einstein also made important contributions to quantum mechanics, and was thus a central figure in the revolutionary reshaping of the scientific understanding of nature that modern physics accomplished in the first decades of the twentieth century. His mass–energy equivalence formula E = mc2, which arises from relativity theory, has been called "the world's most famous equation". He received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect", a pivotal step in the development of quantum theory. His work is also known for its influence on the philosophy of science. In a 1999 poll of 130 leading physicists worldwide by the British journal Physics World, Einstein was ranked the greatest physicist of all time. His intellectual achievements and originality have made the word Einstein broadly synonymous with genius.
-Born in the German Empire, Einstein moved to Switzerland in 1895, forsaking his German citizenship (as a subject of the Kingdom of Württemberg)[note 1] the following year. In 1897, at the age of seventeen, he enrolled in the mathematics and physics teaching diploma program at the Swiss federal polytechnic school in Zürich, graduating in 1900. In 1901, he acquired Swiss citizenship, which he kept for the rest of his life. In 1903, he secured a permanent position at the Swiss Patent Office in Bern. In 1905, he submitted a successful PhD dissertation to the University of Zurich. In 1914, he moved to Berlin in order to join the Prussian Academy of Sciences and the Humboldt University of Berlin. In 1917, he became director of the Kaiser Wilhelm Institute for Physics; he also became a German citizen again, this time as a subject of the Kingdom of Prussia.[note 1]
-Read more: https://en.wikipedia.org/wiki/Albert_Einstein
+The Conjuring is a 2013 American supernatural horror film directed by James Wan and written by Chad Hayes and Carey W. Hayes. It is the inaugural film in The Conjuring Universe franchise. Patrick Wilson and Vera Farmiga star as Ed and Lorraine Warren, paranormal investigators and authors associated with prominent cases of haunting. Their purportedly real-life reports inspired The Amityville Horror story and film franchise. The Warrens come to the assistance of the Perron family, who experienced increasingly disturbing events in their newly occupied farmhouse in Rhode Island in 1971.
+Read more: https://en.wikipedia.org/wiki/The_Conjuring
+charan@charan ~> 
+
 ```
 
 The script will then fetch and parse the information from the page on Wikipedia and print it to the terminal.
