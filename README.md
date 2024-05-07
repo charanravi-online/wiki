@@ -15,7 +15,7 @@
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/wiki)
 
 ## Other ways to install
-Since it is a python appication in its core, it can be installed using the setup.py file\
+Since it is a python appication in its core, it can be installed using the setup.py file
 1. Clone the repo
 2. Navigate to the path where ```setup.py``` is present.
 3. Run ```python setup.py install ```
