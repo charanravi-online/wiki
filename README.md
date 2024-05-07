@@ -18,7 +18,7 @@
 Since it is a python appication in its core, it can be installed using the setup.py file
 1. Clone the repo
 2. Navigate to the path where ```setup.py``` is present.
-3. Run ```python setup.py install ```
+3. Run ```python setup.py install```
 4. Now you should be able to use wiki.
 
 
