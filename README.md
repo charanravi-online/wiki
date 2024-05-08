@@ -98,5 +98,5 @@ charan@charan ~>
 The script will then fetch and parse the information from the page on Wikipedia and print it to the terminal.
 
 # contribution guidelines
-Refer the [CONTRIBUTION](https://github.com/charanravi-online/terminal-wiki/blob/main/docs/CONTRIBUTING.md) for contribution guidelines before making any contributions.
+Refer the [CONTRIBUTION](https://github.com/charanravi-online/wiki/blob/main/docs/CONTRIBUTING.md) for contribution guidelines before making any contributions.
 
