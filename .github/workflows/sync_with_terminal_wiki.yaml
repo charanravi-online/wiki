@@ -33,5 +33,5 @@ jobs:
       - name: Commit changes
         run: |
           git add .
-          git commit -m "Sync specific folders from terminal-wiki"
+          git commit -m "Sync the main python core application from terminal-wiki"
           git push origin main
