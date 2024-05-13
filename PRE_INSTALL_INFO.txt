@@ -1,0 +1,3 @@
+Wiki, a command-line tool to get Wikipedia summaries in your terminal.
+
+Basically you use your terminal to get summaries from Wikipedia.

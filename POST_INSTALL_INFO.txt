@@ -1,0 +1,9 @@
+1. How to use?
+open your command prompt and type, wiki "your prompt here".
+example: wiki "albus dumbledore"
+
+2. How to uninstall?
+navigate to the installation folder (if you haven't changed the installtion path, it should be "C:\Program Files (x86)\wiki\") and run the unins000.exe file.
+
+3. How to look at the code?
+head over to https://github.com/charanravi-online/terminal-wiki

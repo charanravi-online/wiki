@@ -14,12 +14,18 @@
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/wiki)
 
-## Other ways to install
+## Other ways to install (OLD METHOD)
 Since it is a python appication in its core, it can be installed using the setup.py file
 1. Clone the repo
 2. Navigate to the path where ```setup.py``` is present.
 3. Run ```python setup.py install```
 4. Now you should be able to use wiki.
+
+## Build your own app
+1. Running ```pyinstaller.exe --onefile .\src\wiki.py``` will generate two folders ```build/``` & ```dist/```.The ```wiki.exe``` will be located in ```dist/```
+2. LICENSE.txt, POST_INSTALL_INFO.txt & PRE_INSTAL_INFO.txt are useful information files required to package the wiki.exe file.
+3. The win_installer folder contains install_wiki.iss (make sure to change the file paths accordingly) script that can be run by the [inno setup compiler](https://jrsoftware.org/isdl.php).\
+Simply run the script using inno setup compiler and you should generate a Output folder inside win_installer folder. This folder will contain ```install_wiki.exe``` which is our final installation file.
 
 
 Note: Bare in mind that it may not perform as expected on a Windows machine, since it was build for/on Linux machines.
@@ -28,7 +34,7 @@ Please do report bugs if you find any, I'll try my best to optimise it for all t
 
 # How to use?
 
-```wiki "<enter your search query here>"```
+```wiki "your search query here"```
 
 
 You will be presented with a list of items your search query matches with. Pick one of them and a short summary will be displayed.\
