@@ -64,8 +64,7 @@ Since it is a python appication in its core, it can be installed using the setup
 Simply run the script using inno setup compiler and you should generate a Output folder inside win_installer folder. This folder will contain ```install_wiki.exe``` which is our final installation file.
 
 
-~~Note: Bare in mind that it may not perform as expected on a Windows machine, since it was build for/on Linux machines.
-Please do report bugs if you find any, I'll try my best to optimise it for all the platforms as I can.~~
+
 
 
 # How to use?
