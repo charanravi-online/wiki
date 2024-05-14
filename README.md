@@ -37,21 +37,27 @@ If you're interested in this project and want to sponsor a certificate,
 you can do so by reaching out to me via mail: charanravi-online@gmail.com
 </details>
 
+## Mac
+Coming Soon 👀
 
 
 
 
 
-## Other ways to install on Windows (OLD METHOD, NOT RECOMMENDED)
+
+<!---## Other ways to install on Windows (OLD METHOD, NOT RECOMMENDED)
 Since it is a python appication in its core, it can be installed using the setup.py file.\
 **Prerequisites:** Python & pip must be installed oin your machine.
 1. Clone the repo
 2. Navigate to the path where ```setup.py``` is present.
 3. Run ```python setup.py install```
 4. Now you should be able to use wiki.
-5. To uninstall just run ```pip uninstall wiki```
+5. To uninstall just run ```pip uninstall wiki```-->
 
-## Build your own app using the source code
+
+
+
+# Build your own windows installer using the source code
 
 1. Once you've cloned this repo, running ```pyinstaller.exe --onefile .\src\wiki.py``` will generate two folders ```build/``` & ```dist/```.The ```wiki.exe``` will be located in ```dist/```
 2. LICENSE.txt, POST_INSTALL_INFO.txt & PRE_INSTAL_INFO.txt are useful information files required to package the wiki.exe file.
