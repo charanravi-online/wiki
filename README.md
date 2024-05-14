@@ -30,14 +30,13 @@ There are two ways to tackle this.
    Select ```Unblock``` and click ```Apply``` or ```OK```.\
    Now you should be able to double click on the installer and install the application noramlly.
 
-<details>
-<summary><h3>Why is the windows installer not signed?</h3></summary>
+**Why is the windows installer not signed?**\
 It costs quite a lot to get an application signed (and I cannot afford it), hence the workarounds mentioned above.
-If you're interested in this project and want to sponsor a certificate,
+If you're interested in this project and want to sponsor a certificate,\
 you can do so by reaching out to me via mail: charanravi-online@gmail.com
-</details>
 
-## Mac
+
+## macOS
 Coming Soon 👀
 
 
