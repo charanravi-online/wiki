@@ -20,22 +20,47 @@
 Download and install ```install_wiki.exe``` from the [release page](https://github.com/charanravi-online/wiki/releases/tag/v1.0)
 
 
-## Other ways to install (OLD METHOD)
-Since it is a python appication in its core, it can be installed using the setup.py file
+**Note:** Since this is an unsigned exe file, Windows could flag it as a potential threat and prompt you to click on ```Don't Run```.\
+There are two ways to tackle this.
+
+1. You can ignore the promp and click on ```More info``` and it should show another button ```Run Anyway``` right next to ```Don't Run```.\
+   Click on ```Run anyway``` and the application should install normally.
+3. Right click the file and select ```Properties```.\
+   Under the ```General``` tab, near the bottom, you'll see ```This file came from another computer and might be blocked to help protect this computer```.\
+   Select ```Unblock``` and click ```Apply``` or ```OK```.\
+   Now you should be able to double click on the installer and install the application noramlly.
+
+<details>
+<summary><h3>Why is the windows installer not signed?</h3></summary>
+It costs quite a lot to get an application signed (and I cannot afford it), hence the workarounds mentioned above.
+If you're interested in this project and want to sponsor a certificate,
+you can do so by reaching out to me via mail: charanravi-online@gmail.com
+</details>
+
+
+
+
+
+
+## Other ways to install on Windows (OLD METHOD)
+Since it is a python appication in its core, it can be installed using the setup.py file.\
+**Prerequisites:** Python & pip must be installed oin your machine.
 1. Clone the repo
 2. Navigate to the path where ```setup.py``` is present.
 3. Run ```python setup.py install```
 4. Now you should be able to use wiki.
+5. To uninstall just run ```pip uninstall wiki```
 
-## Build your own app
-1. Running ```pyinstaller.exe --onefile .\src\wiki.py``` will generate two folders ```build/``` & ```dist/```.The ```wiki.exe``` will be located in ```dist/```
+## Build your own app using the source code
+
+1. Once you've cloned this repo, running ```pyinstaller.exe --onefile .\src\wiki.py``` will generate two folders ```build/``` & ```dist/```.The ```wiki.exe``` will be located in ```dist/```
 2. LICENSE.txt, POST_INSTALL_INFO.txt & PRE_INSTAL_INFO.txt are useful information files required to package the wiki.exe file.
 3. The win_installer folder contains install_wiki.iss (make sure to change the file paths accordingly) script that can be run by the [inno setup compiler](https://jrsoftware.org/isdl.php).\
 Simply run the script using inno setup compiler and you should generate a Output folder inside win_installer folder. This folder will contain ```install_wiki.exe``` which is our final installation file.
 
 
-Note: Bare in mind that it may not perform as expected on a Windows machine, since it was build for/on Linux machines.
-Please do report bugs if you find any, I'll try my best to optimise it for all the platforms as I can.
+~~Note: Bare in mind that it may not perform as expected on a Windows machine, since it was build for/on Linux machines.
+Please do report bugs if you find any, I'll try my best to optimise it for all the platforms as I can.~~
 
 
 # How to use?
