@@ -17,7 +17,7 @@
 
 ## Windows
 
-Download and install ```install_wiki.exe``` from the [release page](https://github.com/charanravi-online/wiki/releases/tag/v1.0)
+Download and install the latest ```install_wiki.exe``` from the [release page](https://github.com/charanravi-online/wiki/releases/tag/v1.0)
 
 
 **Note:** Since this is an unsigned exe file, Windows could flag it as a potential threat and prompt you to click on ```Don't Run```.\
