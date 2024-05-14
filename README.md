@@ -11,11 +11,11 @@
 1. This repository utilises the python application from the https://github.com/charanravi-online/terminal-wiki and adds configuration that packages the python app into a snap application using snapcraft.yaml file. 
 
 # How to install?
-## Linux
+## 1. Linux
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/wiki)
 
-## Windows
+## 2. Windows
 
 Download and install the latest ```install_wiki.exe``` from the [release page](https://github.com/charanravi-online/wiki/releases/tag/v1.0)
 
@@ -36,7 +36,7 @@ If you're interested in this project and want to sponsor a certificate,\
 you can do so by reaching out to me via mail: charanravi-online@gmail.com
 
 
-## macOS
+## 3. macOS
 Coming Soon 👀
 
 
