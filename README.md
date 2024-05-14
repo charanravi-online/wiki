@@ -42,7 +42,7 @@ you can do so by reaching out to me via mail: charanravi-online@gmail.com
 
 
 
-## Other ways to install on Windows (OLD METHOD)
+## Other ways to install on Windows (OLD METHOD, NOT RECOMMENDED)
 Since it is a python appication in its core, it can be installed using the setup.py file.\
 **Prerequisites:** Python & pip must be installed oin your machine.
 1. Clone the repo
