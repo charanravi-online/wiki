@@ -23,7 +23,7 @@ winget: ```winget install RCharan.wiki```
 
 
 <details>
-<summary><h3>Winget alternative</h3></summary>
+<summary><h3>Winget alternative (manually install exe file)</h3></summary>
    
 Download and install the latest ```install_wiki.exe``` from the <a href="https://github.com/charanravi-online/wiki/releases/tag/v1.0">release page</a>
 
