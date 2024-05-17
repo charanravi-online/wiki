@@ -17,8 +17,15 @@
 
 ## 2. Windows
 
-Download and install the latest ```install_wiki.exe``` from the [release page](https://github.com/charanravi-online/wiki/releases/tag/v1.0)
+### Winget (Recommended for Windows)
+winget: ```winget install RCharan.wiki```
 
+
+
+<details>
+<summary><h3>Winget alternative</h3></summary>
+   
+Download and install the latest ```install_wiki.exe``` from the <a href="https://github.com/charanravi-online/wiki/releases/tag/v1.0">release page</a>
 
 **Note:** Since this is an unsigned exe file, Windows could flag it as a potential threat and prompt you to click on ```Don't Run```.\
 There are two ways to tackle this.
@@ -34,6 +41,15 @@ There are two ways to tackle this.
 It costs quite a lot to get an application signed (and I cannot afford it), hence the workarounds mentioned above.
 If you're interested in this project and want to sponsor a certificate,\
 you can do so by reaching out to me via mail: charanravi-online@gmail.com
+
+
+</details>
+
+
+
+
+
+
 
 
 ## 3. macOS
