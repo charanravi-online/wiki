@@ -8,7 +8,7 @@ where a snapcraft.yaml file packages the python application.
 
 for more information, refer the [README](https://github.com/charanravi-online/terminal-wiki/blob/main/README.md) where I try to break things down for easier understanding.
 
-If there are any doubts or qureries please do not hesistate to reach out.
+If there are any doubts or qureries please do not hesistate to reach out to me: charan.ai@proton.me
 
 ## Did You Find a Bug?
 
