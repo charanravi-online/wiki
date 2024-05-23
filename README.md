@@ -95,9 +95,9 @@ Then summary related to the page you select will be displayed.
 
 # Example
 
-Here's an example of how to use the script:
+Here's an example [in Linux] of how to use the script:
 
-```
+```Shell
 charan@charan ~> wiki "the conjuring"
 Here are the results for: "the conjuring"
 1. The Conjuring - The Conjuring is a 2013 American supernatural horror film directed by James Wan and written by Chad Hayes and Carey W. Hayes. It is the inaugural film...
