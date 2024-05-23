@@ -32,10 +32,11 @@ There are two ways to tackle this.
 
 1. You can ignore the promp and click on ```More info``` and it should show another button ```Run Anyway``` right next to ```Don't Run```.\
    Click on ```Run anyway``` and the application should install normally.
-3. Right click the file and select ```Properties```.\
+2. Right click the file and select ```Properties```.\
    Under the ```General``` tab, near the bottom, you'll see ```This file came from another computer and might be blocked to help protect this computer```.\
    Select ```Unblock``` and click ```Apply``` or ```OK```.\
    Now you should be able to double click on the installer and install the application noramlly.
+3. There might be chance of this application getting flagged and removed if you're using a third party anti-virus software on your system (which is why winget is a better way to install).
 
 **Why is the windows installer not signed?**\
 It costs quite a lot to get an application signed (and I cannot afford it), hence the workarounds mentioned above.
