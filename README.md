@@ -1,5 +1,7 @@
 ![wiki](https://github.com/charanravi-online/wiki/blob/main/snap_icon/wiki_banner.png)
 
+# Powered by Gemini AI
+
 
 
 [![wiki](https://snapcraft.io/wiki/badge.svg)](https://snapcraft.io/wiki)
