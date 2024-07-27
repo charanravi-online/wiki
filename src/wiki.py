@@ -12,10 +12,12 @@ init()
 
 API_KEY_FILE = 'api_key.txt'
 
+
 # Function to save API key to a file
 def save_api_key(api_key):
     with open(API_KEY_FILE, 'w') as file:
         file.write(api_key)
+
 
 # Function to load API key from a file
 def load_api_key():
@@ -24,14 +26,17 @@ def load_api_key():
             return file.read().strip()
     return None
 
+
 # Initialize Gemini AI model
 def initialize_gemini_ai(api_key):
     genai.configure(api_key=api_key)
     return genai.GenerativeModel('gemini-1.5-flash')
 
+
 # Function to clean references from text
 def clean_references(text):
     return re.sub(r'\[\d+\]', '', text)
+
 
 # Function to search Wikipedia
 def search_wikipedia(query):
@@ -74,10 +79,12 @@ def search_wikipedia(query):
 
     print(Fore.BLUE + "Read more:", search_url)
 
+
 # Function to search for top results on Wikipedia
 def search_top_results(query):
     try:
-        response = requests.get(f"https://en.wikipedia.org/w/index.php?fulltext=1&search={query}&title=Special%3ASearch&ns0=1")
+        response = requests.get(
+            f"https://en.wikipedia.org/w/index.php?fulltext=1&search={query}&title=Special%3ASearch&ns0=1")
         response.raise_for_status()
     except requests.exceptions.RequestException as err:
         print(Fore.RED + f'Error occurred: {err}')
@@ -95,7 +102,7 @@ def search_top_results(query):
     for i, item in enumerate(top_results):
         title = item.find('a').get('title').strip()
         desc = item.find('div', class_='searchresult').get_text().strip()
-        print(f"{Style.BRIGHT}{i+1}. {Fore.CYAN}{title}{Fore.RESET}{Style.RESET_ALL} - {clean_references(desc)}\n")
+        print(f"{Style.BRIGHT}{i + 1}. {Fore.CYAN}{title}{Fore.RESET}{Style.RESET_ALL} - {clean_references(desc)}\n")
 
     # Ask user which article they want
     while True:
@@ -103,10 +110,11 @@ def search_top_results(query):
         if page.lower() == 'q':
             return  # User wants to quit
         elif page.isdigit() and 1 <= int(page) <= len(top_results):
-            search_wikipedia(top_results[int(page)-1].find('a').get('title').strip())
+            search_wikipedia(top_results[int(page) - 1].find('a').get('title').strip())
             break
         else:
             print(Fore.RED + "Invalid input, please try again.")
+
 
 # Function to interact with Gemini AI
 def interact_with_gemini(model):
@@ -122,11 +130,13 @@ def interact_with_gemini(model):
         except Exception as e:
             print(Fore.RED + f"An error occurred: {e}")
 
+
 def main():
     parser = argparse.ArgumentParser(description='Search for Wikipedia pages and interact with Gemini AI.')
     parser.add_argument('query', nargs='?', type=str, help='The Wikipedia page to search for')
     parser.add_argument('-gai', action='store_true', help='Give the query to Gemini AI and get a response')
-    parser.add_argument('--gai', action='store_true', help='Enter continuous prompt mode to interact with Gemini AI')
+    parser.add_argument('--gai', action='store_true', help='Enter continuous prompt mode to interact\
+     with Gemini AI')
 
     args = parser.parse_args()
 
@@ -152,6 +162,7 @@ def main():
         search_top_results(args.query)
     else:
         parser.print_help()
+
 
 if __name__ == "__main__":
     main()
